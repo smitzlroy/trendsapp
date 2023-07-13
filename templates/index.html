@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Trend Visualization</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id="graph"></div>
+    <script>
+        var graph = document.getElementById('graph');
+        var figure = {{ fig_json | safe }};
+        Plotly.plot(graph, figure.data, figure.layout);
+    </script>
+</body>
+</html>
