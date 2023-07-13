@@ -1,6 +1,6 @@
 # AI Trend Visualization Application
 
-This is a Flask web application that visualizes the trend of AI startups over the years. It uses data from a CSV file of startups, grouped by category and founding year, and presents an interactive line chart using Plotly.
+This is a Flask web application that visualizes the trend of AI startups over the years. It uses data from a CSV file of (fake) startups, grouped by category and founding year, and presents an interactive line chart using Plotly.
 
 ## Getting Started
 
